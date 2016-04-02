@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ceep</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/cabecalho.css">
+  <link rel="stylesheet" href="css/opcoesDaPagina.css">
+  <link rel="stylesheet" href="css/cartao.css">
+  <link rel="stylesheet" href="css/novoCartao.css">
+  <meta name="viewport" content="width=device-width">
+</head>
+<body>
+  <header class="cabecalho container">
+    <h1>Ceep</h1>
+    <div class="opcoesDaPagina">
+      <button id="mudaLayout" class="opcoesDaPagina-opcao opcoesDaPagina-botao">Linhas</button>
+    </div>
+  </header>
+
+  <form class="novoCartao container">
+    <textarea class="novoCartao-conteudo" placeholder="Digite aqui"></textarea>
+    <input type="submit" class="novoCartao-salvar" value="Salvar">
+  </form>
+
+  <section class="container mural mural--linhas">
+    <div class="cartao" id="cartao_1">
+      <div class="opcoesDoCartao-remove" data-ref="1"><button>Remover</button></div>
+      <p class="cartao-conteudo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sapiente voluptates dolorum tenetur illum fuga beatae in velit! Dolorum nemo hic, dolore quis maxime eius nostrum laborum quas ex, vitae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sapiente voluptates dolorum tenetur illum fugaLorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sapiente voluptates dolorum tenetur illum fuga</p>
+    </div>
+    <div class="cartao" id="cartao_2">
+      <div class="opcoesDoCartao-remove" data-ref="2"><button>Remover</button></div>
+      <p class="cartao-conteudo">Nemo, neque consequatur amet, perferendis ipsam totam optio, a minima autem, commodi eveniet aliquid. Quidem beatae ex dolores quisquam, neque. Culpa ex, natus tempore hic autem nulla fugit! Esse, nobis.</p>
+    </div>
+    <div class="cartao" id="cartao_3">
+      <div class="opcoesDoCartao-remove" data-ref="3"><button>Remover</button></div>
+      <p class="cartao-conteudo">Corporis est accusamus, officiis aspernatur iste quaerat at id. Quae magni voluptates numquam alias accusamus expedita ipsam dicta dolore, tempora, dolor consequatur qui nulla vel ad necessitatibus, mollitia facere totam?</p>
+    </div>
+    <div class="cartao" id="cartao_4">
+      <div class="opcoesDoCartao-remove" data-ref="4"><button>Remover</button></div>
+      <p class="cartao-conteudo">Eveniet debitis id rem reprehenderit odio enim velit totam unde nesciunt ad qui neque, optio distinctio! Molestiae consequatur quae similique, ad dignissimos facere natus, consequuntur ut, inventore nemo dolorum sequi!</p>
+    </div>
+    <div class="cartao" id="cartao_5">
+      <div class="opcoesDoCartao-remove" data-ref="5"><button>Remover</button></div>
+      <p class="cartao-conteudo">Voluptatum voluptates nam facere assumenda cum, consequuntur voluptatibus accusamus totam dolore praesentium alias explicabo. Ducimus voluptatem iure quae ex non tenetur, ut, recusandae molestias ipsum, magni nostrum quaerat culpa sint.</p>
+    </div>
+  </section>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/principal.js"></script>
+</body>
+</html>

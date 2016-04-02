@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cabecalho {
+  background-color: #0082c7;
+}
+
+body {
+  background-color: #e8e8e8;
+}
+
+.cartao {
+  background-color: #ebef40;
+  margin: 16px;
+  padding: 16px;
+  flex-basis: 190px;
+  flex-grow: 1;
+}
+
+.container {
+  padding: 0 10%;
+}
+
+.mural {
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: stretch;
+}
+
+#mudaLayout {
+  display: none;
+}
+
+.mural--linhas {
+  flex-direction: column;
+}
+
+.mural--linhas .cartao {
+  flex-basis: auto;
+  width: auto;
+  display: block;
+}
+
+#mudaLayout {
+  display: none;
+}
+
+.cartao--some {
+  opacity: 0;
+  transition: 500ms ease-in;
+}
+
+@media (min-width: 560px) {
+
+  .cartao {
+    width: 190px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+  }
+
+  #mudaLayout {
+    display: inline-block;;
+  }
+
+}
